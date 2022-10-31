@@ -29,7 +29,7 @@ public class Main {
         String operand_a;
         String operand_b;
 
-        boolean limitedVersion = true; // возможность отключения ограничений диапазона 1 до 10 (очень уж хотелось попробовать именно такой вариант)
+        boolean limitedVersion = true; // возможность отключения ограничений диапазона 1 до 10 (очень уж хотелось попробовать реализовать именно такой вариант)
 
         operator = calcTools.definitionOperator(input); // Получаем операнд, либо выбрасываем исключение в случае нарушение каких-либо условий
         operand_a = input.split("["+operator+"]")[0]; // Получаем первый операнд
